@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: 'Overpass', sans-serif;;
+}
+
+.grid-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:
+        'header header header'
+        'sidebar main main'
+        'footer footer footer';
+}
+
+.header {
+    grid-area: header;
+    background-color: rgb(213, 173, 236);
+    padding: 25px;
+    text-align: center;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: rgb(149, 86, 185);
+    color: #ffffff;
+    /* flex: 0 0 200px; */
+    padding: 5px;
+    
+}
+
+.main {
+    grid-area: main;
+    background-color: rgb(204, 198, 198);
+}
+
+.grid-productos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+
+}
+
+.productos {
+    background-color: #fcefdd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.chimmyimg {
+    background-image: url("../img/chimmy.jpg");
+    background-size: 100%;
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.kookieimg{
+    background-image: url("../img/kookie.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    }
+
+.koyaimg{
+    background-image: url("../img/koya.jpg");
+    background-size:cover;
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.mangimg{
+    background-image: url("../img/mang.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.rjimg{
+    background-image: url("../img/RJ.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+.shookyimg{
+    background-image: url("../img/shooky.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+.tataimg{
+    background-image: url("../img/tata.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    ;
+}
+
+.footer {
+
+    background-color: #ddbdeb;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    grid-area: footer;
+
+}
+
+.boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    background-color: #ddbdeb;
+    border: 0;
+    font-family: 'Overpass', sans-serif;;
+}
